@@ -5,7 +5,6 @@ class CreateSavingTargets < ActiveRecord::Migration[5.2]
       t.datetime :targetdate
       t.string :target_image
       t.string :type
-
       t.timestamps
     end
   end

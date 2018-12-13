@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2018_12_13_102041) do
     t.string "text"
     t.string "likes"
     t.integer "saving_target_id"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -32,6 +33,7 @@ ActiveRecord::Schema.define(version: 2018_12_13_102041) do
   create_table "user_saving_targets", force: :cascade do |t|
     t.integer "user_id"
     t.integer "saving_target_id"
+    t.integer "amount"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
