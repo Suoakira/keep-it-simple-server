@@ -14,7 +14,6 @@ ActiveRecord::Schema.define(version: 2018_12_13_102041) do
 
   create_table "comments", force: :cascade do |t|
     t.string "text"
-    t.string "likes"
     t.integer "saving_target_id"
     t.integer "user_id"
     t.datetime "created_at", null: false
@@ -25,7 +24,7 @@ ActiveRecord::Schema.define(version: 2018_12_13_102041) do
     t.string "name"
     t.datetime "targetdate"
     t.string "target_image"
-    t.string "type"
+    t.string "plan"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
