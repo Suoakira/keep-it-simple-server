@@ -1,2 +1,2 @@
-class SavingTargetsController < ApplicationController
+class Api::V1::SavingTargetsController < ApplicationController
 end
