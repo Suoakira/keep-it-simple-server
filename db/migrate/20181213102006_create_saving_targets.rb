@@ -4,7 +4,7 @@ class CreateSavingTargets < ActiveRecord::Migration[5.2]
       t.string :name
       t.datetime :targetdate
       t.string :target_image
-      t.string :type
+      t.string :plan
       t.timestamps
     end
   end
