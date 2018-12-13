@@ -1,6 +1,6 @@
+
 class Api::V1::SavingTargetsController < ApplicationController
     
-class Api::V1::CommentsController < ApplicationController
 
     def index
         @saving_target = SavingTarget.all 
@@ -37,7 +37,7 @@ class Api::V1::CommentsController < ApplicationController
 
     def update
         @saving_target = SavingTarget.find_by(id: params[:id])
-        if @SavingTarget.update(saving_target_params)
+        if @saving_target.update(saving_target_params)
             render json: @saving_target
         else
             render json: {error: 'Unable to update saving target.'}, status: 400
@@ -50,7 +50,5 @@ class Api::V1::CommentsController < ApplicationController
     def saving_target_params
         params.require(:saving_target).permit(:name, :targetdate, :target_image, :type)
     end
-
-end
 
 end

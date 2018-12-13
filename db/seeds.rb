@@ -43,9 +43,9 @@ User.create(
 https://www.instagram.com/prattprattpratt/?hl=en")
 
 
-SavingTarget.create(name: "City Z")
-SavingTarget.create(name: "Charity Fundraiser")
-SavingTarget.create(name: "First House Fund")
+SavingTarget.create(name: "City Z", plan: "group")
+SavingTarget.create(name: "Charity Fundraiser", plan: "group")
+SavingTarget.create(name: "First House Fund", plan: "group")
 #note the join class's must come after where they have been declared
 UserSavingTarget.create(amount: 100, user_id: 1, saving_target_id: 1)
 UserSavingTarget.create(amount: 10000, user_id: 2, saving_target_id: 2)
