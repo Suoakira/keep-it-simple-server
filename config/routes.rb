@@ -5,8 +5,6 @@ Rails.application.routes.draw do
       resources :users
       resources :comments
       resources :saving_targets
-
-
     end
   end
 end

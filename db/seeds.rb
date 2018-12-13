@@ -51,7 +51,7 @@ UserSavingTarget.create(amount: 100, user_id: 1, saving_target_id: 1)
 UserSavingTarget.create(amount: 10000, user_id: 2, saving_target_id: 2)
 UserSavingTarget.create(amount: 450, user_id: 3, saving_target_id: 3)
 
-Comment.create(text: "ill finish up this week for our goal", user_id: 1, saving_target_id: 1)
-Comment.create(text: "nice work", user_id: 3, saving_target_id: 2)
-Comment.create(text: "can you add alan to the group save?", user_id: 2, saving_target_id: 3)
+Comment.create(text: "ill finish up this week for our goal", likes: 39, user_id: 1, saving_target_id: 1)
+Comment.create(text: "nice work", likes: 20, user_id: 3, saving_target_id: 2)
+Comment.create(text: "can you add alan to the group save?", likes: 112, user_id: 2, saving_target_id: 3)
 
