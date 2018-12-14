@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       resources :comments
       resources :saving_targets
       resources :user_saving_targets
+      post "signin", to: "users#signin"
     end
   end
 end
