@@ -47,7 +47,7 @@ class Api::V1::SavingTargetsController < ApplicationController
 
 
     def saving_target_params
-        params.require(:saving_target).permit(:name, :targetdate, :target_image, :type)
+        params.require(:saving_target).permit(:name, :start_date, :end_date, :target_image, :type)
     end
 
 end
