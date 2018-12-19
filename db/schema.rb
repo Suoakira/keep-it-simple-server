@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 2018_12_13_102041) do
 
   create_table "saving_targets", force: :cascade do |t|
     t.string "name"
+    t.string "category"
     t.datetime "start_date"
     t.datetime "end_date"
     t.string "target_image"
