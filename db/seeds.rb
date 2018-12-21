@@ -55,8 +55,8 @@ SavingTarget.create(name: "Charity Fundraiser", plan: "personal", start_date: "2
 
 #note the join class's must come after where they have been declared
 UserSavingTarget.create(amount: 3270, user_id: 1, saving_target_id: 1)
-UserSavingTarget.create(amount: 65000, user_id: 2, saving_target_id: 1)
-UserSavingTarget.create(amount: 150, user_id: 3, saving_target_id: 1)
+UserSavingTarget.create(amount: 65000, user_id: 1, saving_target_id: 2)
+UserSavingTarget.create(amount: 150, user_id: 1, saving_target_id: 3)
 
 # Comment.create(text: "ill finish up this week for our goal", saving_target_id: 1, user_id: 1)
 # Comment.create(text: "nice work", saving_target_id: 2, user_id: 3)
