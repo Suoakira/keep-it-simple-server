@@ -48,15 +48,21 @@ https://www.instagram.com/prattprattpratt/?hl=en")
 
 SavingTarget.create(name: "The Bahamas", plan: "personal", category: "Vacation", start_date: "2018-12-18 15:31:48", end_date: "2019-12-18 15:31:48", target_image: "https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2015/07/09/559e989d0121edec2570097a_bahamas-07-morning-life-Alessandro-Sarno.jpg")
 
-SavingTarget.create(name: "Tesla", plan: "personal", start_date: "2018-12-18 15:31:48", end_date: "2019-06-18 15:31:48", target_image: "https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/images/16q3/669366/tesla-for-2017-whats-new-feature-car-and-driver-photo-670366-s-original.jpg")
+SavingTarget.create(name: "Tesla", plan: "personal", category: "Car", start_date: "2018-12-18 15:31:48", end_date: "2019-06-18 15:31:48", target_image: "https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/images/16q3/669366/tesla-for-2017-whats-new-feature-car-and-driver-photo-670366-s-original.jpg")
 
-SavingTarget.create(name: "Charity Fundraiser", plan: "personal", start_date: "2018-12-18 15:31:48", end_date: "2019-01-20 15:31:48", target_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwFk9dOAqNHC0YXNRNHAgaRs1QcBP1GR5Z-mtvX9c0ei8F6sQdtw")
+SavingTarget.create(name: "Charity Fundraiser", plan: "personal", category: "Charity", start_date: "2018-12-18 15:31:48", end_date: "2019-01-20 15:31:48", target_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwFk9dOAqNHC0YXNRNHAgaRs1QcBP1GR5Z-mtvX9c0ei8F6sQdtw")
 
+SavingTarget.create(name: "Group Vacation", plan: "Group", category: "Vacation", start_date: "2018-12-18 15:31:48", end_date: "2019-01-20 15:31:48", target_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC5lUJXgqQqU0kxqTOoiRJi87byJHg9LbJ1Jm67FEaZocVmha3")
 
 #note the join class's must come after where they have been declared
 UserSavingTarget.create(amount: 3270, user_id: 1, saving_target_id: 1)
 UserSavingTarget.create(amount: 65000, user_id: 1, saving_target_id: 2)
 UserSavingTarget.create(amount: 150, user_id: 1, saving_target_id: 3)
+
+UserSavingTarget.create(amount: 270, user_id: 1, saving_target_id: 4)
+UserSavingTarget.create(amount: 370, user_id: 2, saving_target_id: 4)
+UserSavingTarget.create(amount: 470, user_id: 3, saving_target_id: 4)
+
 
 # Comment.create(text: "ill finish up this week for our goal", saving_target_id: 1, user_id: 1)
 # Comment.create(text: "nice work", saving_target_id: 2, user_id: 3)
