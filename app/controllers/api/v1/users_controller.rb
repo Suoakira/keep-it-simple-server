@@ -43,7 +43,7 @@ class Api::V1::UsersController < ApplicationController
         if @user.save
             render json: @user
         else
-            render json: {error: 'Unable to create user.'}, status: 400
+            render json: {error: 'Please enter all fields correctly.'}, status: 400
         end
     end
 
@@ -67,7 +67,6 @@ class Api::V1::UsersController < ApplicationController
     end
 
     private
-
 
     def user_params
         params.require(:user).permit(:first_name, :last_name, :username, :password, :email, :image_url, :bio, :facebook, :twitter, :instagram)

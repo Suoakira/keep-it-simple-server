@@ -51,6 +51,11 @@ SavingTarget.create(name: "The Bahamas", plan: "personal", category: "Vacation",
 SavingTarget.create(name: "Tesla", plan: "personal", category: "Car", start_date: "2018-12-18 15:31:48", end_date: "2019-06-12 15:31:48", target_image: "https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/images/16q3/669366/tesla-for-2017-whats-new-feature-car-and-driver-photo-670366-s-original.jpg")
 
 SavingTarget.create(name: "Japan Trip", plan: "personal", category: "Vacation", start_date: "2018-12-12 15:31:48", end_date: "2019-01-25 15:31:48", target_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC5lUJXgqQqU0kxqTOoiRJi87byJHg9LbJ1Jm67FEaZocVmha3")
+SavingTarget.create(name: "The Bahamas", plan: "personal", category: "Vacation", start_date: "2018-12-18 15:31:48", end_date: "2019-12-10 15:31:48", target_image: "https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2015/07/09/559e989d0121edec2570097a_bahamas-07-morning-life-Alessandro-Sarno.jpg")
+
+SavingTarget.create(name: "Tesla", plan: "personal", category: "Car", start_date: "2018-12-18 15:31:48", end_date: "2019-06-12 15:31:48", target_image: "https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/images/16q3/669366/tesla-for-2017-whats-new-feature-car-and-driver-photo-670366-s-original.jpg")
+
+SavingTarget.create(name: "Japan Trip", plan: "personal", category: "Vacation", start_date: "2018-12-12 15:31:48", end_date: "2019-01-25 15:31:48", target_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC5lUJXgqQqU0kxqTOoiRJi87byJHg9LbJ1Jm67FEaZocVmha3")
 
 #Group Plans
 
@@ -81,31 +86,36 @@ UserSavingTarget.create(amount: 3270, user_id: 1, saving_target_id: 1)
 UserSavingTarget.create(amount: 65000, user_id: 1, saving_target_id: 2)
 UserSavingTarget.create(amount: 1550, user_id: 1, saving_target_id: 3)
 
-UserSavingTarget.create(amount: 270, user_id: 1, saving_target_id: 4)
-UserSavingTarget.create(amount: 375, user_id: 2, saving_target_id: 4)
-UserSavingTarget.create(amount: 470, user_id: 3, saving_target_id: 4)
+#extra
+UserSavingTarget.create(amount: 3270, user_id: 1, saving_target_id: 4)
+UserSavingTarget.create(amount: 65000, user_id: 1, saving_target_id: 5)
+UserSavingTarget.create(amount: 1550, user_id: 1, saving_target_id: 6)
 
-UserSavingTarget.create(amount: 270, user_id: 1, saving_target_id: 5)
-UserSavingTarget.create(amount: 440, user_id: 2, saving_target_id: 5)
-UserSavingTarget.create(amount: 330, user_id: 3, saving_target_id: 5)
+UserSavingTarget.create(amount: 270, user_id: 1, saving_target_id: 7)
+UserSavingTarget.create(amount: 375, user_id: 2, saving_target_id: 7)
+UserSavingTarget.create(amount: 470, user_id: 3, saving_target_id: 7)
+
+UserSavingTarget.create(amount: 270, user_id: 1, saving_target_id: 8)
+UserSavingTarget.create(amount: 440, user_id: 2, saving_target_id: 8)
+UserSavingTarget.create(amount: 330, user_id: 3, saving_target_id: 8)
 
 
-UserSavingTarget.create(amount: 35, user_id: 1, saving_target_id: 6)
-UserSavingTarget.create(amount: 40, user_id: 2, saving_target_id: 6)
-UserSavingTarget.create(amount: 25, user_id: 3, saving_target_id: 6)
+UserSavingTarget.create(amount: 35, user_id: 1, saving_target_id: 9)
+UserSavingTarget.create(amount: 40, user_id: 2, saving_target_id: 9)
+UserSavingTarget.create(amount: 25, user_id: 3, saving_target_id: 9)
 
 
-Comment.create(text: "ill finish up this week for our goal", saving_target_id: 4, user_id: 1)
-Comment.create(text: "that sounds great thanks for the heads up!", saving_target_id: 4, user_id: 2)
+Comment.create(text: "ill finish up this week for our goal", saving_target_id: 7, user_id: 1)
+Comment.create(text: "that sounds great thanks for the heads up!", saving_target_id: 7, user_id: 2)
 Comment.create(text: "Really looking forward to this vacation Group save was such a great idea!", saving_target_id: 4, user_id: 3)
-Comment.create(text: "Yep 100%, will use this for the nex one to", saving_target_id: 4, user_id: 1)
+Comment.create(text: "Yep 100%, will use this for the nex one to", saving_target_id: 7, user_id: 1)
 
 
 
-Comment.create(text: "nice work", saving_target_id: 5, user_id: 3)
-Comment.create(text: "Hopefully they enjoy the pc!", saving_target_id: 5, user_id: 2)
-Comment.create(text: "Who wouldnt!", saving_target_id: 5, user_id: 1)
+Comment.create(text: "nice work", saving_target_id: 8, user_id: 3)
+Comment.create(text: "Hopefully they enjoy the pc!", saving_target_id: 8, user_id: 2)
+Comment.create(text: "Who wouldnt!", saving_target_id: 8, user_id: 1)
 
-Comment.create(text: "can you add alan to the group save?", saving_target_id: 6, user_id: 2)
-Comment.create(text: "Done!", saving_target_id: 6, user_id: 1)
+Comment.create(text: "can you add alan to the group save?", saving_target_id: 9, user_id: 2)
+Comment.create(text: "Done!", saving_target_id: 9, user_id: 1)
 
