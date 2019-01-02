@@ -19,7 +19,7 @@ class Api::V1::UserSavingTargetsController < ApplicationController
         if @user_saving_target.save
             render json: @user_saving_target
         else
-            render json: {error: 'Unable to create saving target.'}, status: 400
+            render json: {error: 'Unable to create Saving Plan.'}, status: 400
         end
     end
 
@@ -43,7 +43,6 @@ class Api::V1::UserSavingTargetsController < ApplicationController
     end
 
     private
-
 
     def user_saving_target_params
         params.require(:user_saving_target).permit(:user_id, :saving_target_id, :amount)
