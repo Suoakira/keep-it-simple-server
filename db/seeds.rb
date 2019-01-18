@@ -57,19 +57,19 @@ SavingTarget.create(name: "Tesla", plan: "personal", category: "Car", start_date
 
 SavingTarget.create(name: "Japan Trip", plan: "personal", category: "Vacation", start_date: "2018-12-12 15:31:48", end_date: "2019-01-25 15:31:48", target_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC5lUJXgqQqU0kxqTOoiRJi87byJHg9LbJ1Jm67FEaZocVmha3")
 
-#Group Plans
-
-SavingTarget.create(name: "Group Vacation", plan: "group", category: "Vacation", start_date: "2018-12-18 15:31:48", end_date: "2019-02-20 15:31:48", target_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC5lUJXgqQqU0kxqTOoiRJi87byJHg9LbJ1Jm67FEaZocVmha3")
-
-SavingTarget.create(name: "Birthday Gift", plan: "group", category: "Present", start_date: "2018-12-11 15:31:48", end_date: "2019-03-20 15:31:48", target_image: "http://www.internetct.co.uk/image/cache/data/products/NZXT/noctis_white/pic3-500x500.png")
-
-SavingTarget.create(name: "Office Party", plan: "group", category: "Other", start_date: "2018-12-11 15:31:48", end_date: "2019-03-22 15:31:48", target_image: "https://royalhotelcumnock.com/wp-content/uploads/sites/7/2018/05/xmas-party-50-50.jpg")
-
 #upcoming plans
 SavingTarget.create(name: "Leaving Gift", plan: "group", category: "Present", start_date: "2019-02-03 15:31:48", end_date: "2020-03-22 15:31:48", target_image: "")
 SavingTarget.create(name: "Birthday Party", plan: "group", category: "Other", start_date: "2019-03-03 15:31:48", end_date: "2020-03-22 15:31:48", target_image: "")
 SavingTarget.create(name: "Nissan Micra", plan: "personal", category: "Car", start_date: "2019-02-06 15:31:48", end_date: "2020-03-22 15:31:48", target_image: "")
 SavingTarget.create(name: "Summer Holiday", plan: "personal", category: "Vacation", start_date: "2019-03-05 15:31:48", end_date: "2020-03-22 15:31:48", target_image: "")
+
+#Group Plans
+
+SavingTarget.create(name: "Group Vacation", plan: "group", category: "Vacation", start_date: "2018-12-18 15:31:48", end_date: "2019-02-20 15:31:48", target_image: "https://media-cdn.tripadvisor.com/media/photo-s/0d/f5/45/ed/southern-iceland-glaciers.jpg")
+
+SavingTarget.create(name: "Birthday Gift", plan: "group", category: "Present", start_date: "2018-12-11 15:31:48", end_date: "2019-03-20 15:31:48", target_image: "http://www.internetct.co.uk/image/cache/data/products/NZXT/noctis_white/pic3-500x500.png")
+
+SavingTarget.create(name: "Office Party", plan: "group", category: "Other", start_date: "2018-12-11 15:31:48", end_date: "2019-03-22 15:31:48", target_image: "https://royalhotelcumnock.com/wp-content/uploads/sites/7/2018/05/xmas-party-50-50.jpg")
 
 UserSavingTarget.create(amount: 270, user_id: 1, saving_target_id: 7)
 UserSavingTarget.create(amount: 350, user_id: 1, saving_target_id: 8)
