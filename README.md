@@ -1,24 +1,10 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# Keep-It-Simple
 
-* Ruby version
+This is a backend RESTful API for a money management app, provides users with a simple organised way to organise all their saving goals.
 
-* System dependencies
+Langugage: Ruby 2.6.1
+Framwork: Ruby on Rails
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Notable Gems/Packages: CORS, BCrypt, Serializer
